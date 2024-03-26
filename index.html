@@ -7,34 +7,25 @@
         <link rel="icon" type="image/x-icon" href="C:\Imagenet\Tools\Chat Icon\favicon.ico">
 		<link rel="manifest" href="/manifest.json">
         <style>
-            html {
-                width: auto;
-                height: 100%;
+        .responsive-iframe {
+            width: 100%;
+            height: 80vh; /* or adjust based on your needs */
+            border: none;
+            /* Additional styling to ensure responsiveness and proper display */
+        }
+        
+        /* Ensure the app container is also styled appropriately */
+        #app-container {
+            max-width: 600px; /* or whatever max width you prefer */
+            margin: auto;
+            padding: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            #app-container {
+                padding: 10px;
             }
-
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: auto;
-                height: 100%;
-            }
-
-            div {
-                background-color: #1D2E43;
-                color: #ffffff;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                /*width: 400px;
-                height: 200px; */
-                border-radius: 10px;
-            }
-
-            h2 {
-                font-size:medium;
-            }
+        }        
         </style>
     </head>
     <body>
