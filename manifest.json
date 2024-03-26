@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "ImageNet Managed IT Support App",
+    "short_name": "ImageNet Support",
+    "description": "Chat support app for contacting our helpdesk",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512"
+        }
+    ]
+}

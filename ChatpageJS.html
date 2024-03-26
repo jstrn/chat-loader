@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imagenet</title>
+        <link rel="icon" type="image/x-icon" href="C:\Imagenet\Tools\Chat Icon\favicon.ico">
+		<link rel="manifest" href="/manifest.json">
+        <style>
+            html {
+                width: auto;
+                height: 100%;
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: auto;
+                height: 100%;
+            }
+
+            div {
+                background-color: #1D2E43;
+                color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 400px;
+                height: 200px;
+                border-radius: 10px;
+            }
+
+            h2 {
+                font-size:medium;
+            }
+        </style>
+    </head>
+    <body>
+
+		<div id="app-container">
+        <!-- This is where the embedded web app will be loaded -->
+        </div>
+
+		<script>
+		if('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/sw.js', { scope: '/' });
+			}
+		</script>
+		<script src="main.js"></script>
+    </body>
+</html>
