@@ -37,10 +37,11 @@
         </div>
 
 		<script>
-		if('serviceWorker' in navigator) {
-			navigator.serviceWorker.register('/sw.js', { scope: '/' });
-			}
-		</script>
-		<script src="main.js"></script>
+            if (typeof navigator.serviceWorker !== 'undefined') {
+              navigator.serviceWorker.register('./sw.js')
+            }
+          </script>
+          
+		<script src="./main.js"></script>
     </body>
 </html>
