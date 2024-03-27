@@ -2,16 +2,26 @@
     "lang": "en-us",
     "name": "ImageNet Managed IT Support App",
     "short_name": "ImageNet Support",
-    "description": "Chat support app for contacting our helpdesk",
+    "description": "Chat support app for contacting ImageNet helpdesk",
     "start_url": "/",
     "background_color": "#2f3d58",
     "theme_color": "#2f3d58",
     "orientation": "any",
-    "display": "standalone",
     "icons": [
         {
-            "src": "/icon512.png",
-            "sizes": "512x512"
+            "src": "./icon512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./icon256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
         }
     ]
+    "edge_side_panel": {
+        "preferred_width": 480
+      }
 }
