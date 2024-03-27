@@ -1,5 +1,5 @@
 {
-    "lang": "en-us",
+    "lang": "en-US",
     "name": "ImageNet Managed IT Support App",
     "short_name": "ImageNet Support",
     "description": "Chat support app for contacting ImageNet helpdesk",
@@ -20,7 +20,7 @@
             "type": "image/png",
             "purpose": "any"
         }
-    ]
+    ],
     "edge_side_panel": {
         "preferred_width": 480
       }

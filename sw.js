@@ -5,7 +5,8 @@ const appShellFiles = [
     '/manifest.json',
     '/sw.js',
     '/main.js',
-	'icon512.png'
+	'icon512.png',
+  'icon256.png'
     // Include other assets like scripts, stylesheets, and images
 ];
 
