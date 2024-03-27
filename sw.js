@@ -1,7 +1,7 @@
 const CACHE_NAME = `imagenet-chat-loader`;
 const appShellFiles = [
     '/',
-    '/ChatpageJS.html',
+    '/index.html',
     '/manifest.json',
     '/sw.js',
     '/main.js',
