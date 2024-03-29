@@ -36,7 +36,11 @@ self.addEventListener('fetch', event => {
       const cachedResponse = await caches.match(event.request);
       console.log(`[Service Worker] Fetching resource: ${event.request.url}`);
       if (cachedResponse) {
-        return cachedResponse;
+        //return cachedResponse;
+        //skip cache for testing
+        const fetchResponse = await fetch(event.request);
+        return fetchResponse;
+
       } else {
           try {
             // If the resource was not in the cache, try the network.

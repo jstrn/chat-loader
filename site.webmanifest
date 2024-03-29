@@ -3,7 +3,7 @@
     "name": "ImageNet Managed IT Support App",
     "short_name": "ImageNet Support",
     "description": "Chat support app for contacting ImageNet helpdesk",
-    "start_url": "/",
+    "start_url": "/chat-loader/",
     "background_color": "#114066",
     "theme_color": "#114066",
     "orientation": "any",
