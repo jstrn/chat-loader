@@ -23,7 +23,7 @@
             "src": "safari-pinned-tab.svg",
             "sizes": "512x512",
             "purpose": "maskable"
-         },
+         }
     ],
     "edge_side_panel": {
         "preferred_width": 480
