@@ -1,0 +1,20 @@
+.responsive-iframe {
+    width: 100%;
+    height: 80vh; /* Adjusted to use viewport height for responsiveness */
+    min-width: 700px; /* Minimum width of 700px */
+    min-height: 800px; /* Minimum height of 800px */
+    border: none;
+}
+
+#app-container {
+    width: 100%; /* Ensures container takes full width of its parent */
+    max-width: 700px; /* Maximum width to ensure iframe does not exceed 700px in width */
+    margin: auto; /* Centers the container */
+    padding: 20px;
+}
+
+@media (max-width: 720px) { /* Adjusts for very small screens */
+    #app-container {
+        padding: 10px;
+    }
+}
