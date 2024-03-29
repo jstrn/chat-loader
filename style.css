@@ -5,7 +5,12 @@
     min-height: 800px; /* Minimum height of 800px */
     border: none;
 }
-
+#install-prompt-container{
+    width: 100%;
+    max-width: 300px;
+    margin:auto;
+    padding: 20px;
+}
 #app-container {
     width: 100%; /* Ensures container takes full width of its parent */
     max-width: 700px; /* Maximum width to ensure iframe does not exceed 700px in width */
