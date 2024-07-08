@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const hour = currentTime.getHours();
     const dayOfWeek = currentTime.getDay();
     const isWeekday = dayOfWeek >= 1 && dayOfWeek <= 5; // Monday to Friday
-    const isDaytime = hour >= 7 && hour < 18; // 7:00 AM to 5:59 PM
+    const isDaytime = hour >= 7 && hour < 17; // 7:00 AM to 5:59 PM
     const container = document.getElementById('app-container');
 
     let iframeHTML = '<iframe class="responsive-iframe" title="app-iframe" src="';
